@@ -1,0 +1,140 @@
+body{
+    background-color: lightgray;
+}
+
+#header{
+    background-color: black;
+    height: 3em;
+    margin-bottom: 1em;
+}
+
+header img{
+    width: 100px;
+    height: 3em;
+    float: left;
+}
+
+nav ul{
+    padding: 2px;
+    margin: 3px;
+    list-style-type: disc;
+}
+
+nav div{
+    float: right;
+    margin: 3px;
+}
+
+nav li{
+    display: inline;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding:5px;
+    font-size: 3px;
+}
+
+#container{
+    padding: 3em;
+    margin: 1em;
+    box-shadow: 3px 3px darkgray;
+    background-color: white;
+}
+
+h2{
+    color: darkgray;
+}
+
+h3{
+    color: darkgray;
+    font-size: 2px;
+}
+
+ul.container{
+    list-style-type: none;
+    padding: 3px;
+}
+li.container{
+    margin: 10px;
+}
+
+div.desc{
+  text-align:center;
+  font-weight:normal;
+  width:150px;
+  font-size:12px;
+  margin:10px 5px 10px 5px;
+}
+div.img{
+    margin:3px;
+    border:1px solid #bebebe;
+    width: 10em;
+    height: 12em;
+    text-align:center;
+}
+
+div.img img{
+    display: inline;
+    margin: 3px;
+    width: 5em;
+    height: 6em;
+    border: 1px solid #bebebe
+}
+
+th{
+    background-color: darkslategray;
+    color: white;
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    white-space: pre;
+}
+
+h1.last{
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: gray;
+    padding: 15px;
+    
+    font-size: 15px;
+}
+
+div.last{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+
+p.last{
+    text-align: center;
+    color: lightgray;
+    padding-right: 20px;
+    margin-top: 5px;
+}
+
+div.psw{
+    padding-left: 33px;
+}
+
+button{
+    width: 50em;
+    height: 3em;
+    background-color: dodgerblue;
+    color: white;
+    border: 1;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
