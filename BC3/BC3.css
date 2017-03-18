@@ -1,0 +1,41 @@
+div{
+    padding: 20px;
+    border: 1 #999;
+    margin: 10px;
+}
+
+p{
+    white-space: pre;
+}
+
+
+#contain{
+    overflow: auto;
+    background-color: #eee;
+}
+
+#left{
+    float: left;
+    background-color: white;
+    padding-right: 100px;
+}
+
+#mid{
+    width: auto;
+    background-color: white;
+    float: left;
+}
+
+#right{
+    background-color: white;
+    width: 120px;
+    float: left;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+img.left{
+        float: left;
+}
